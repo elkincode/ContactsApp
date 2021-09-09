@@ -67,7 +67,6 @@
 				99643C7226E9851C000748A8 /* Data */,
 				99643C7026E98515000748A8 /* Models */,
 				99643C6E26E984DA000748A8 /* ViewControllers */,
-				99643C4526E9480B000748A8 /* SceneDelegate.swift */,
 				99643C6D26E984C4000748A8 /* Storyboards */,
 				99643C7426E98549000748A8 /* App */,
 			);
@@ -115,6 +114,7 @@
 			children = (
 				99643C5126E9480E000748A8 /* Info.plist */,
 				99643C4326E9480B000748A8 /* AppDelegate.swift */,
+				99643C4526E9480B000748A8 /* SceneDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
