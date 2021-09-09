@@ -64,6 +64,7 @@
 		99643C4226E9480B000748A8 /* ContactsApp */ = {
 			isa = PBXGroup;
 			children = (
+				99643C7826EA0024000748A8 /* Resources */,
 				99643C7226E9851C000748A8 /* Data */,
 				99643C7026E98515000748A8 /* Models */,
 				99643C6E26E984DA000748A8 /* ViewControllers */,
@@ -104,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				99643C6326E94B25000748A8 /* DataManager.swift */,
-				99643C4C26E9480E000748A8 /* Assets.xcassets */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -117,6 +117,14 @@
 				99643C4526E9480B000748A8 /* SceneDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		99643C7826EA0024000748A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99643C4C26E9480E000748A8 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

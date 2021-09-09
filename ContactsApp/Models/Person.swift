@@ -21,7 +21,7 @@ struct Person {
         
         var persons: [Person] = []
         
-        for personsCounter in 0..<DataManager.dataManager.names.count {
+        for personsCounter in 0...DataManager.dataManager.names.count - 1 {
             let person = Person(
                 name: DataManager.dataManager.names[personsCounter],
                 surname: DataManager.dataManager.surnames[personsCounter],
