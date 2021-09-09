@@ -33,14 +33,14 @@ class ContactsSectionViewController: UITableViewController {
         // Здесь у меня получилось вывести только email-адреса
         override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             let cell = tableView.dequeueReusableCell(withIdentifier: "sectionTrackID", for: indexPath)
-            var email = cell.defaultContentConfiguration()
-            var phone = cell.defaultContentConfiguration()
+            var content = cell.defaultContentConfiguration()
+            
             let person = personsList[indexPath.row]
             
-            email.text = person.email
-            phone.text = person.phone
+            content.text = person.email
+            content.text = person.phone
             
-            cell.contentConfiguration = email
+            cell.contentConfiguration = content
 
             return cell
         }
